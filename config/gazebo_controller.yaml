@@ -1,6 +1,6 @@
-ra_S1_position_controller:
+S1_position_controller:
   type: sr_mechanism_controllers/SrhJointPositionController
-  joint: ra_S1
+  joint: S1
   pid:
     p: 50.0
     deadband: 0.0
@@ -11,23 +11,9 @@ ra_S1_position_controller:
     i_clamp: 100.0
     position_deadband: 0.014999999999999999
 
-ra_S2_position_controller:
+S2_position_controller:
   type: sr_mechanism_controllers/SrhJointPositionController
-  joint: ra_S2
-  pid:
-    p: 50.0
-    deadband: 0.0
-    friction_deadband: 2000.0
-    i: 5.0
-    d: 50.0
-    max_force: 100.0
-    i_clamp: 100.0
-    position_deadband: 0.014999999999999999
-
-
-ra_S3_position_controller:
-  type: sr_mechanism_controllers/SrhJointPositionController
-  joint: ra_S3
+  joint: S2
   pid:
     p: 50.0
     deadband: 0.0
@@ -39,9 +25,9 @@ ra_S3_position_controller:
     position_deadband: 0.014999999999999999
 
 
-ra_E1_position_controller:
+S3_position_controller:
   type: sr_mechanism_controllers/SrhJointPositionController
-  joint: ra_E1
+  joint: S3
   pid:
     p: 50.0
     deadband: 0.0
@@ -53,9 +39,9 @@ ra_E1_position_controller:
     position_deadband: 0.014999999999999999
 
 
-ra_E2_position_controller:
+E1_position_controller:
   type: sr_mechanism_controllers/SrhJointPositionController
-  joint: ra_E2
+  joint: E1
   pid:
     p: 50.0
     deadband: 0.0
@@ -67,9 +53,9 @@ ra_E2_position_controller:
     position_deadband: 0.014999999999999999
 
 
-ra_W1_position_controller:
+E2_position_controller:
   type: sr_mechanism_controllers/SrhJointPositionController
-  joint: ra_W1
+  joint: E2
   pid:
     p: 50.0
     deadband: 0.0
@@ -81,9 +67,23 @@ ra_W1_position_controller:
     position_deadband: 0.014999999999999999
 
 
-ra_W2_position_controller:
+W1_position_controller:
   type: sr_mechanism_controllers/SrhJointPositionController
-  joint: ra_W2
+  joint: W1
+  pid:
+    p: 50.0
+    deadband: 0.0
+    friction_deadband: 2000.0
+    i: 5.0
+    d: 50.0
+    max_force: 100.0
+    i_clamp: 100.0
+    position_deadband: 0.014999999999999999
+
+
+W2_position_controller:
+  type: sr_mechanism_controllers/SrhJointPositionController
+  joint: W2
   pid:
     p: 50.0
     deadband: 0.0

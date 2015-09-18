@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<robot name="pa10-7c" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+  <xacro:include filename="$(find pa10_7c_description)/urdf/pa10-7c.urdf.xacro"/>
+  <xacro:include filename="$(find pa10_7c_description)/urdf/pa10_shadow_controller_manager.xacro"/>
+
+  <link name="world" />
+
+  <joint name="world_pa10_arm_base_joint" type="fixed">
+    <origin xyz="0 0 0.1" rpy="0 0 0"/>
+    <parent link="world"/>
+    <child link="arm_base_link"/>
+  </joint>
+
+  <xacro:pa10_7c_arm name="" />
+  <xacro:pa10_shadow_gazebo_controller_manager namespace="" />
+  
+</robot>

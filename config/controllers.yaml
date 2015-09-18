@@ -1,0 +1,9 @@
+pa10_arm_controller:
+  joints:
+    - S1
+    - S2
+    - S3
+    - E1
+    - E2
+    - W1
+    - W2

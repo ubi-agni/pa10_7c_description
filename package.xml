@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <name>pa10_7a_description</name>
+  <version>0.0.1</version>
+  <description>The mitsubishi pa10 7a description package</description>
+
+  <maintainer email="gwalck@techfak.uni-bielefeld.de">Guillaume Walck</maintainer>
+
+  <license>BSD</license>
+
+  <author email="gwalck@techfak.uni-bielefeld.de">Guillaume Walck</author>
+  <author>Robert Haschke</author>
+ 
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>xacro</build_depend>
+  <run_depend>xacro</run_depend>
+  <run_depend>sr_mechanism_model</run_depend>
+
+</package>

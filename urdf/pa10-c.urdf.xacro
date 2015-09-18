@@ -12,7 +12,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://agni_description/pa10/meshes/pa-7c/link0_mesh.dae" scale="1 1 1" />
+        <mesh filename="package://pa10_7a_description/meshes/pa-7c/link0_mesh.dae" scale="1 1 1" />
       </geometry>
     </visual>
     <collision>
@@ -42,7 +42,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://agni_description/pa10/meshes/pa-7c/link1_mesh.dae" scale="1 1 1" />
+        <mesh filename="package://pa10_7a_description/meshes/pa-7c/link1_mesh.dae" scale="1 1 1" />
       </geometry>
     </visual>
     <collision>
@@ -76,7 +76,7 @@
     <visual>
       <origin xyz="0 0 -0.317" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://agni_description/pa10/meshes/pa-7c/link2_mesh.dae" scale="1 1 1" />
+        <mesh filename="package://pa10_7a_description/meshes/pa-7c/link2_mesh.dae" scale="1 1 1" />
       </geometry>
     </visual>
     <collision>
@@ -104,7 +104,7 @@
     <visual>
       <origin xyz="0 0 -0.317" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://agni_description/pa10/meshes/pa-7c/link3_mesh.dae" scale="1 1 1" />
+        <mesh filename="package://pa10_7a_description/meshes/pa-7c/link3_mesh.dae" scale="1 1 1" />
       </geometry>
     </visual>
     <collision>
@@ -138,7 +138,7 @@
     <visual>
       <origin xyz="0 0 -0.767" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://agni_description/pa10/meshes/pa-7c/link4_mesh.dae" scale="1 1 1" />
+        <mesh filename="package://pa10_7a_description/meshes/pa-7c/link4_mesh.dae" scale="1 1 1" />
       </geometry>
     </visual>
     <collision>
@@ -166,7 +166,7 @@
     <visual>
       <origin xyz="0 0 -0.767" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://agni_description/pa10/meshes/pa-7c/link5_mesh.dae" scale="1 1 1" />
+        <mesh filename="package://pa10_7a_description/meshes/pa-7c/link5_mesh.dae" scale="1 1 1" />
       </geometry>
     </visual>
     <collision>
@@ -200,7 +200,7 @@
     <visual>
       <origin xyz="0 0 -1.247" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://agni_description/pa10/meshes/pa-7c/link6_mesh.dae" scale="1 1 1" />
+        <mesh filename="package://pa10_7a_description/meshes/pa-7c/link6_mesh.dae" scale="1 1 1" />
       </geometry>
     </visual>
     <collision>
@@ -222,7 +222,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://agni_description/pa10/meshes/pa-7c/link7_mesh.dae" scale="1 1 1" />
+        <mesh filename="package://pa10_7a_description/meshes/pa-7c/link7_mesh.dae" scale="1 1 1" />
       </geometry>
     </visual>
     <collision>

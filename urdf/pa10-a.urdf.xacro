@@ -10,7 +10,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://pa10_7a_description/meshes/pa-7a/link0_mesh.dae" scale="1 1 1" />
+        <mesh filename="package://pa10_7c_description/meshes/pa-7a/link0_mesh.dae" scale="1 1 1" />
       </geometry>
     </visual>
     <collision>
@@ -42,7 +42,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://pa10_7a_description/meshes/pa-7a/link1_mesh.dae" scale="1 1 1" />
+        <mesh filename="package://pa10_7c_description/meshes/pa-7a/link1_mesh.dae" scale="1 1 1" />
       </geometry>
     </visual>
     <collision>
@@ -77,7 +77,7 @@
     <visual>
       <origin xyz="0 0 -0.315" rpy="0 0 3.1415"/>
       <geometry>
-        <mesh filename="package://pa10_7a_description/meshes/pa-7a/link2_mesh.dae" scale="1 1 1" />
+        <mesh filename="package://pa10_7c_description/meshes/pa-7a/link2_mesh.dae" scale="1 1 1" />
       </geometry>
     </visual>
     <collision>
@@ -105,7 +105,7 @@
     <visual>
       <origin xyz="0 0 -0.315" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://pa10_7a_description/meshes/pa-7a/link3_mesh.dae" scale="1 1 1" />
+        <mesh filename="package://pa10_7c_description/meshes/pa-7a/link3_mesh.dae" scale="1 1 1" />
       </geometry>
     </visual>
     <collision>
@@ -139,7 +139,7 @@
     <visual>
       <origin xyz="0 0 -0.765" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://pa10_7a_description/meshes/pa-7a/link4_mesh.dae" scale="1 1 1" />
+        <mesh filename="package://pa10_7c_description/meshes/pa-7a/link4_mesh.dae" scale="1 1 1" />
       </geometry>
     </visual>
     <collision>
@@ -167,7 +167,7 @@
     <visual>
       <origin xyz="0 0 -0.765" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://pa10_7a_description/meshes/pa-7a/link5_mesh.dae" scale="1 1 1" />
+        <mesh filename="package://pa10_7c_description/meshes/pa-7a/link5_mesh.dae" scale="1 1 1" />
       </geometry>
     </visual>
     <collision>
@@ -201,7 +201,7 @@
     <visual>
       <origin xyz="0 0 -1.265" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://pa10_7a_description/meshes/pa-7a/link6_mesh.dae" scale="1 1 1" />
+        <mesh filename="package://pa10_7c_description/meshes/pa-7a/link6_mesh.dae" scale="1 1 1" />
       </geometry>
     </visual>
     <collision>
@@ -223,7 +223,7 @@
     <visual>
       <origin xyz="0 0 1.345" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://pa10_7a_description/meshes/pa-7a/link7_mesh.dae" scale="1 1 1" />
+        <mesh filename="package://pa10_7c_description/meshes/pa-7a/link7_mesh.dae" scale="1 1 1" />
       </geometry>
     </visual>
     <collision>

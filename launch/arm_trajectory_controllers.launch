@@ -1,0 +1,6 @@
+<launch>
+  <rosparam file="$(find pa10_7c_description)/config/gazebo_controller.yaml" command="load"/>
+    <node name="spawn_gazebo_trajectory_controllers"
+  pkg="controller_manager" type="spawner" respawn="false" output="screen"
+  args="--shutdown-timeout=1.0 trajectory_controller" />
+</launch>

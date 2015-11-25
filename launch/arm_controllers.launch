@@ -1,5 +1,5 @@
 <launch>
-  <rosparam file="$(find pa10_7c_description)/config/controller_gazebo.yaml" command="load"/>
+  <rosparam file="$(find pa10_7c_description)/config/gazebo_controller.yaml" command="load"/>
     <node name="spawn_gazebo_arm_controllers"
   pkg="controller_manager" type="spawner" respawn="false" output="screen"
   args="--shutdown-timeout=1.0 S1_position_controller S2_position_controller S3_position_controller E1_position_controller 

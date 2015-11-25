@@ -250,9 +250,13 @@
     <provideFeedback>1</provideFeedback>
     <implicitSpringDamper>1</implicitSpringDamper>
   </gazebo>
-  <transmission type="sr_mechanism_model/SimpleTransmission" name="${name}S1_transmission">
-    <actuator name="${name}S1_actuator" />
+  <transmission name="${name}S1_transmission">
+    <type>transmission_interface/SimpleTransmission</type>
+    <actuator name="${name}S1_actuator">
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
     <joint name="${name}S1">
+      <hardwareInterface>PositionJointInterface</hardwareInterface>
     </joint>  
   </transmission>
 
@@ -268,9 +272,13 @@
     <provideFeedback>1</provideFeedback>
     <implicitSpringDamper>1</implicitSpringDamper>
   </gazebo>
-  <transmission type="sr_mechanism_model/SimpleTransmission" name="${name}S2_transmission">
-    <actuator name="${name}S2_actuator" />
+  <transmission name="${name}S2_transmission">
+    <type>transmission_interface/SimpleTransmission</type>
+    <actuator name="${name}S2_actuator">
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
     <joint name="${name}S2">
+      <hardwareInterface>PositionJointInterface</hardwareInterface>
     </joint>  
   </transmission>
   
@@ -286,9 +294,13 @@
     <provideFeedback>1</provideFeedback>
     <implicitSpringDamper>1</implicitSpringDamper>
   </gazebo>
-  <transmission type="sr_mechanism_model/SimpleTransmission" name="${name}S3_transmission">
-    <actuator name="${name}S3_actuator" />
+  <transmission name="${name}S3_transmission">
+    <type>transmission_interface/SimpleTransmission</type>
+    <actuator name="${name}S3_actuator">
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
     <joint name="${name}S3">
+      <hardwareInterface>PositionJointInterface</hardwareInterface>
     </joint>  
   </transmission>
   
@@ -304,9 +316,13 @@
     <provideFeedback>1</provideFeedback>
     <implicitSpringDamper>1</implicitSpringDamper>
   </gazebo>
-  <transmission type="sr_mechanism_model/SimpleTransmission" name="${name}E1_transmission">
-    <actuator name="${name}E1_actuator" />
+  <transmission name="${name}E1_transmission">
+    <type>transmission_interface/SimpleTransmission</type>
+    <actuator name="${name}E1_actuator">
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
     <joint name="${name}E1">
+      <hardwareInterface>PositionJointInterface</hardwareInterface>
     </joint>  
   </transmission>
   
@@ -322,9 +338,13 @@
     <provideFeedback>1</provideFeedback>
     <implicitSpringDamper>1</implicitSpringDamper>
   </gazebo>
-  <transmission type="sr_mechanism_model/SimpleTransmission" name="${name}E2_transmission">
-    <actuator name="${name}E2_actuator" />
+  <transmission name="${name}E2_transmission">
+    <type>transmission_interface/SimpleTransmission</type>
+    <actuator name="${name}E2_actuator">
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
     <joint name="${name}E2">
+      <hardwareInterface>PositionJointInterface</hardwareInterface>
     </joint>  
   </transmission>
 
@@ -340,10 +360,13 @@
     <provideFeedback>1</provideFeedback>
     <implicitSpringDamper>1</implicitSpringDamper>
   </gazebo>
-  <!-- <transmission type="transmission_interface/SimpleTransmission" name="${name}W1_transmission"> -->
-  <transmission type="sr_mechanism_model/SimpleTransmission" name="${name}W1_transmission">
-    <actuator name="${name}W1_actuator" />
+  <transmission name="${name}W1_transmission">
+    <type>transmission_interface/SimpleTransmission</type>
+    <actuator name="${name}W1_actuator">
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
     <joint name="${name}W1">
+      <hardwareInterface>PositionJointInterface</hardwareInterface>
     </joint>  
   </transmission>
   
@@ -359,9 +382,13 @@
     <provideFeedback>1</provideFeedback>
     <implicitSpringDamper>1</implicitSpringDamper>
   </gazebo>
-  <transmission type="sr_mechanism_model/SimpleTransmission" name="${name}W2_transmission">
-    <actuator name="${name}W2_actuator" />
+  <transmission name="${name}W2_transmission">
+    <type>transmission_interface/SimpleTransmission</type>
+    <actuator name="${name}W2_actuator">
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
     <joint name="${name}W2">
+      <hardwareInterface>PositionJointInterface</hardwareInterface>
     </joint>  
   </transmission>
   
